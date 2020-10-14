@@ -1,0 +1,632 @@
+body {
+    font-size: 14px;
+    line-height: 140%;
+    font-family: "Roboto", Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #ffffff;
+    margin: auto;
+}
+
+.main-container {
+    position: relative;
+    max-width: 1600px;
+    min-width: 1600px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+h1 {
+    position: absolute;
+    clip: rect(0px, 0px, 0px, 0px);
+    clip-path: inset(0px 0px 99.9% 99.9%);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    display: block;
+    font-size: 2em;
+    padding: 0;
+    margin: -1px;
+    border: 0;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 63px;
+    line-height: 75px;
+    letter-spacing: 5.4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #373737;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: #373737;
+}
+
+button {
+    width: 184px;
+    height: 46px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    text-transform: uppercase;
+    background: #00afdb;
+    color: #FFFFFF;
+    border: none;
+}
+
+button:hover {
+    background: #009CC2;
+    cursor: pointer;
+}
+
+p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #4E4E4E;
+}
+
+.page-header {
+    top: -323px;
+    left: -26px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.main_navigation {
+    display: flex;
+}
+
+.main_navigation_link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    cursor: pointer;
+    margin: 0 43px;
+}
+
+.item-menu_logo {
+    margin: 0 15px;
+}
+
+.active-menu_about {
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 1px #ffffff solid;
+    color: #FFFFFF;
+}
+
+.active-menu_about:hover {
+    color: darkturquoise;
+    border-bottom: 1px darkturquoise solid;
+}
+
+.item-menu_plan {
+    opacity: 0.8;
+    font-weight: 100;
+}
+
+.item-menu_plan:hover {
+    color: darkseagreen;
+}
+
+.promo {
+    background: url("assets/1_img.png") no-repeat center;
+    width: 100%;
+    height: 744px;
+    display: flex;
+    justify-content: center;
+}
+
+.item-menu_project {
+    opacity: 0.8;
+    font-weight: 100;
+}
+
+.item-menu_project:hover {
+    color: darkseagreen;
+}
+
+.item-menu_faq {
+    opacity: 0.8;
+    font-weight: 100;
+}
+
+.item-menu_faq:hover {
+    color: darkseagreen;
+}
+
+.h2_main {
+    width: 750px;
+    height: 75px;
+    left: 429px;
+    font-weight: 900;
+    position: absolute;
+    text-align: center;
+    top: 167px;
+    padding-top: 10px;
+}
+
+.promo_pgh {
+    position: absolute;
+    top: 308px;
+    width: 504px;
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.promo-btn_main {
+    top: 406px;
+}
+
+.socials_wrapper {
+    position: absolute;
+    top: 634px;
+}
+
+.socials_wrapper a {
+    margin: 0 13px;
+}
+
+.socials_wrapper_link {
+    transition: 0.5s;
+}
+
+.socials_wrapper_link:hover {
+    transform: scale(1.4);
+}
+
+.represent {
+    position: relative;
+    height: 842px;
+    display: flex;
+}
+
+.represent_container {
+    position: relative;
+    width: 407px;
+    height: 257px;
+    left: 270px;
+    top: 272px;
+}
+
+.represent_img {
+    position: absolute;
+    width: 407px;
+    height: 582px;
+    top: 120px;
+    right: 269px;
+}
+
+.represent_description {
+    position: absolute;
+    width: 407px;
+    height: 80px;
+    left: 0px;
+    top: 87px;
+    line-height: 20px;
+}
+
+.represent_head {
+    position: absolute;
+    font-weight: bold;
+    letter-spacing: 1px;
+    width: 380px;
+    height: 57px;
+}
+
+.represent_btn {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.our-community {
+    position: relative;
+    height: 504px;
+    background: #f7f6f5;
+    color: #4e4e4e;
+
+}
+
+.our-community_icon {
+    width: 45px;
+    height: 45px;
+    left: 127px;
+    top: 0px;
+    border-radius: 45px;
+}
+
+.our-community_content {
+    position: absolute;
+    text-align: center;
+    width: 298px;
+    height: 175px;
+    left: 270px;
+    top: 154px;
+}
+
+.our-community_head {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+}
+
+.our-community_description {
+    position: relative;
+    line-height: 20px;
+    top: -14px;
+    font-size: 14px;
+}
+
+.our-community_slider {
+    position: relative;
+    left: 679px;
+    top: 120px;
+}
+
+.our-community_slider-image * {
+    margin-left: 27px;
+    width: 407px;
+    height: 244px;
+}
+
+.pointer {
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-top: 2px solid #4e4e4e;
+    border-right: 2px solid #4e4e4e;
+    margin-top: 6px;
+}
+
+.pointer:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.slider-right {
+    transform: rotate(45deg);
+    right: 0;
+}
+
+.slider-left {
+    transform: rotate(-135deg);
+}
+
+.slider-btns {
+    display: flex;
+    position: absolute;
+    width: 79px;
+    height: 20px;
+    left: 571px;
+    top: -40px;
+}
+
+.slider-pos {
+    font-size: 18px;
+    line-height: 140%;
+    width: 79px;
+    display: flex;
+    justify-content: center;
+}
+
+.slider-pos *{
+    margin: 0 2px;
+}
+
+.last_slider {
+    width: 19px;
+    height: 244px;
+}
+.implement {
+    position: relative;
+    height: 842px;
+}
+
+.implement_container{
+    position: absolute;
+    left: 817px;
+    top: 294px;
+    width: 407px;
+    height: 209px;
+}
+
+.implement_head{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #373737;
+}
+
+.implement_image{
+    position: absolute;
+    width: 407px;
+    height: 582px;
+    left: 269px;
+    top: 120px;
+}
+
+.implement_description{
+    position: absolute;
+    top: 60px;
+    left: -1px;
+    color: #4E4E4E;
+    line-height: 20px;
+}
+
+.implement_btn{
+    position: absolute;
+    bottom: 0;
+    width: 180px;
+    left: -2px;
+}
+
+.subscribe {
+    position: relative;
+    height: 524px;
+    background: url("assets/sing_up.jpg");
+    background-position: 50% 80%;
+}
+
+.subscribe_container{
+    position: absolute;
+    width: 415px;
+    height: 104px;
+    left: 597px;
+    top: 176px;
+}
+
+.subscribe_form{
+    position: absolute;
+    top: 82px;
+    width: 406px;
+    height: 46px;
+}
+
+.subscribe_head_colored{
+    position: absolute;
+    font-weight: bold;
+    left: 13px;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1.15px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.subscribe_input{
+    width: 292px;
+    height: 40px;
+    padding: 3px 24px;
+    border: 0;
+}
+
+.subscribe form input:focus{
+    box-shadow: 0 0 5px inset #007bc2;
+    outline: 0;
+}
+
+.subscribe_btn{
+    position: absolute;
+    width: 66px;
+    height: 46px;
+    border: 0;
+    right: 0px;
+    top: 0px;
+    background: #00AFDB;
+}
+
+.subscribe_btn:hover{
+    background: #009CC2;
+    cursor: pointer;
+}
+
+.subscribe_btn_image{
+    margin-top: 3px;
+    margin-left: 1px;
+}
+
+.subscribe_btn_image:hover{
+    opacity: 0.8;
+}
+
+.download {
+    position: relative;
+    height: 464px;
+    background: #F5F6F7;
+}
+
+
+.download_container {
+    position: absolute;
+    width: 470px;
+    left: 565px;
+    top: 96px;
+    color: #373737;
+    text-align: center;
+}
+
+.download_head {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+}
+
+.download_description{
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: -3px;
+    color: #4E4E4E;
+}
+
+.download_link{
+    position: absolute;
+    width: 186px;
+    height: 46px;
+}
+
+.download-link button {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    width: 126px;
+    height: 46px;
+}
+
+.download_btn-apple {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    padding-right: 57px;
+    padding-left: 0px;
+}
+
+.download_btn-android {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    padding-right: 57px;
+    padding-left: 0px;
+}
+
+.download-link button:hover{
+    background: #009CC2;
+    cursor: pointer;
+}
+
+.download_svg{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 46px;
+    background: #009CC2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_android{
+    left: 250px;
+    margin-top: 15px;
+}
+
+.btn_apple {
+    margin-left: 34px;
+    margin-top: 15px;
+}
+
+.footer{
+    position: relative;
+    height: 184px;
+    background: #000000;
+}
+
+.footer_navigation {
+    position: absolute;
+    top: 60px;
+    left: 110px;
+    display: flex;
+    list-style: none;
+
+}
+
+.footer_navigation_link {
+    position: relative;
+    color: #fff;
+    border-bottom: transparent;
+    transition: 0.5s;
+    margin: 0 9.7px;
+}
+
+.footer_credits {
+    padding-right: 6px;
+}
+
+.footer_navigation_link a:hover {
+    color: darkseagreen;
+}
+
+
+/* .footer_divider_left {
+    font-size: 9px;
+    opacity: 0.5;
+    width: 8px;
+    height: 0px;
+    left: 65px;
+    top: 15px;
+    border: 1px solid #4E4E4E;
+    transform: rotate(-90deg);
+}
+
+.footer_divider_right {
+    font-size: 9px;
+    opacity: 0.5;
+    width: 8px;
+    height: 0px;
+    left: 151px;
+    top: 15px;
+    border: 1px solid #4E4E4E;
+    transform: rotate(-90deg);
+} */
+
+.teams {
+    width: 65px;
+    height: 20px;
+    left: 171px;
+    top: 0px;
+}
+
+.footer_logo {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    top: 60px;
+}
+
+.footer_pgh {
+    position: absolute;
+    color: #818181;
+    right: 160px;
+    top: 60px;
+}
